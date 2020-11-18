@@ -18,7 +18,7 @@ class MainWindow(QMainWindow):
 
         self.browser.page().linkHovered.connect(self.if_link_hover)
         
-        self.browser.setMinimumSize(1200, 600)
+        self.browser.setMinimumSize(500, 500)
         self.status = self.statusBar()
         self.status.addPermanentWidget(self.pbar)
 
