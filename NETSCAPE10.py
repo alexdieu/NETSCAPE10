@@ -71,7 +71,7 @@ class MainWindow(QMainWindow):
         rld_btn.setStatusTip("Reload page")
         rld_btn.triggered.connect(self.browser.reload)
         tb.addAction(rld_btn)
-
+        
         self.urlbar=QLineEdit()
         tb.addSeparator()
         self.urlbar.returnPressed.connect(self.navigate_page)
